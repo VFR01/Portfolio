@@ -1,0 +1,66 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100@200@300@400@500&display=swap");
+
+
+*{
+    box-sizing: border-box;
+    font-family: "work sans";
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container .inicio{
+    background-image: url(/img/jugomorado.jpg);
+    background-color: rgb(224, 134, 224);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 700px;
+
+}
+
+.container .productos{
+    background-image: url(/img/verde.jpg);
+    background-image: no-repeat;
+    height: 300px;
+}
+
+header nav h1{
+    justify-content: flex;
+    align-items: center;
+    height: 70px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    color: mediumorchid;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex;
+    color: white;
+    background-color: blueviolet;
+
+}
+
+header nav ul li a{
+    text-align: none;
+    margin: 0 15px;
+    padding: 3px;
+    transition: 0.5s;
+}
+
+img{
+    display: flex;
+    justify-content: right;
+    align-items: column;
+    width: 50%;
+}
+
+
+
+
